@@ -1,0 +1,22 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		int var=1;
+		switch(var) {
+		  case 1:
+		    System.out.println("GOOD");
+		    break;
+		  case 2:
+			  System.out.println("BETTER");
+		    break;
+		  case 3:
+			  System.out.println("BEST");
+		    break;
+		  default:
+		    // code block
+		}
+
+	}
+
+}
