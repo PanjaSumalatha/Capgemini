@@ -1,0 +1,77 @@
+Multiple of 3 using for loop:
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		int N=3;
+		for ( N = 3;  N <= 36;  N++ ) {
+            if ( N % 3 == 0 )
+                System.out.println( N );
+        }
+	}
+}
+
+
+Even number between 40-60:
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		int n = 60;
+		
+		for (int i = 40; i <= n; i++) {
+		   if (i % 2 == 0) {
+			System.out.print(i + " ");
+		   }
+		}
+	}
+}
+
+Natural numbers in reverse order:
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		for(int i = 10; i >= 1; i--)
+		{
+			System.out.println(i);
+		}
+		   }
+}
+
+Fibonacci series using for loop:
+
+public class Main {
+       public static void main(String[] args)
+	{
+		int n = 10, firstTerm = 0, secondTerm = 1;
+
+	    for (int i = 1; i <= n; ++i) {
+	      System.out.print(firstTerm + ", ");
+	      int nextTerm = firstTerm + secondTerm;
+	      firstTerm = secondTerm;
+	      secondTerm = nextTerm;
+	    }
+	  }
+	}
+factorial of a number using for loop:
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		int num = 10;
+        long factorial = 1;
+        for(int i = 1; i <= num; ++i)
+        {
+            // factorial = factorial * i;
+            factorial *= i;
+        }
+        System.out.printf("Factorial of %d = %d", num, factorial);
+
+	  }
+	}
+
