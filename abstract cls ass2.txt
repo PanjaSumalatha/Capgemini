@@ -1,0 +1,26 @@
+abstract class MotorBike{  
+	  abstract void run();  
+	}  
+
+
+	class Honda4 extends MotorBike{  
+	void run()
+	{
+		System.out.println("Honda running safely");
+	}  
+	}  
+	class Apache extends MotorBike{  
+		void run()
+		{
+			System.out.println("Apache running safely");
+		}  
+		}  
+	
+	class Test{
+		public static void main(String[] args) {
+			MotorBike m1=new Honda4();
+			MotorBike m2=new Apache();
+			m1.run();
+			m2.run();
+		}
+	}
