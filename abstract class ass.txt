@@ -1,0 +1,27 @@
+public abstract class Hello {
+	abstract void eat();
+	public void run() {
+		System.out.println("Running");
+	}
+	abstract void msg2();
+}
+class Test extends Hello{
+
+	@Override
+	void eat() {
+		System.out.println("iam eating");
+		
+	}
+
+	@Override
+	void msg2() {
+	System.out.println("this is msg2");
+	}
+	public static void main(String[] args) {
+		Hello h=new Test();
+		h.eat();
+		h.msg2();
+		h.run();
+	}
+	
+}
